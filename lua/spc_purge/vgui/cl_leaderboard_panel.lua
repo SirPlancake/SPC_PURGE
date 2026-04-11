@@ -12,6 +12,7 @@ PIXEL.RegisterFont("SPC_PURGE.LeaderboardItem", "Roboto Medium", 23, 400)
 function PANEL:Init()
     self:SetSize(PIXEL.Scale(250), PIXEL.Scale(65))
     self:SetPos(ScrW() - PIXEL.Scale(250) - PIXEL.Scale(25), PIXEL.Scale(150) + PIXEL.Scale(35))
+    self:SetZPos(32767)
 end
 
 function PANEL:Paint(Width, Height)

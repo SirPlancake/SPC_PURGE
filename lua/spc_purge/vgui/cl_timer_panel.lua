@@ -12,6 +12,7 @@ PIXEL.RegisterFont("SPC_PURGE.TimerNumber", "Roboto Medium", 90, 400)
 function PANEL:Init()
     self:SetSize(PIXEL.Scale(250), PIXEL.Scale(150))
     self:SetPos(ScrW() - PIXEL.Scale(250) - PIXEL.Scale(25), PIXEL.Scale(25))
+    self:SetZPos(32767)
 end
 
 function PANEL:Paint(Width, Height)
